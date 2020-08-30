@@ -8,13 +8,63 @@
 
     <FrameLayout
         android:id="@+id/fragment"
-        android:layout_width="370dp"
-        android:layout_height="641dp"
+        android:layout_width="366dp"
+        android:layout_height="334dp"
+        android:layout_marginBottom="52dp"
         android:layout_weight="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mTextInputLayout"
+        android:layout_width="263dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="44dp"
+        app:errorEnabled="true"
+        app:counterMaxLength="5"
+        app:hintTextAppearance="@style/MyHintText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-    </FrameLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mEditText"
+            android:layout_width="254dp"
+            android:layout_height="43dp"
+            android:hint="hint"
+            android:theme="@style/MyEditText"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mTextInputLayout2"
+        android:layout_width="263dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        app:errorEnabled="true"
+        app:hintTextAppearance="@style/MyHintText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mEditText2"
+            android:layout_width="254dp"
+            android:layout_height="43dp"
+            android:hint="hint"
+            android:theme="@style/MyEditText"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
