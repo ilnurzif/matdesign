@@ -36,4 +36,6 @@
     <string name="btn_persistent">btn_persisent</string>
     <string name="btn_modal">btn_modal</string>
     <string name="show">Show</string>
+    <string name="close">Закрыть</string>
+    <string name="Enter">Войти</string>
 </resources>
