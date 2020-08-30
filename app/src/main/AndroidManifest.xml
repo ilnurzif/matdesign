@@ -10,8 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SettActivity"
-            android:label="@string/title_activity_sett"
+            android:name=".SnackBarActivity"
+            android:label="@string/title_activity_snack_bar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".BottomSheetActivity"
+            android:label="BottomSheetActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".SettingsActivity"

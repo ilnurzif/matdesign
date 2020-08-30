@@ -6,7 +6,12 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.Button
+import android.widget.Toast
 import androidx.fragment.app.FragmentTransaction
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -22,6 +27,16 @@ class MainActivity : BaseActivity() {
             it.commit()
         }
 
+        snackBarShowButton.setOnClickListener { view: View? ->
+            val intent = Intent(this, SnackBarActivity::class.java)
+            startActivity(intent)
+        }
+
+        bottomSheetShowButton.setOnClickListener { view: View? ->
+            val intent = Intent(this, BottomSheetActivity::class.java)
+            startActivity(intent)
+        }
+
         mTextInputLayout.setHint(getString(R.string.hint))
         mEditText.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(
@@ -29,16 +44,14 @@ class MainActivity : BaseActivity() {
                 start: Int,
                 count: Int,
                 after: Int
-            ) {
-            }
+            ) {  }
 
             override fun onTextChanged(
                 s: CharSequence,
                 start: Int,
                 before: Int,
                 count: Int
-            ) {
-            }
+            ) {  }
 
             override fun afterTextChanged(s: Editable) {
                 if (s.length > mTextInputLayout.getCounterMaxLength())

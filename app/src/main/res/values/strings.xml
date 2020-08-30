@@ -30,4 +30,10 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hint">MyHint</string>
     <string name="error">My Error</string>
+    <string name="title_activity_snack_bar">SnackBarActivity</string>
+    <string name="tv_description">Описание</string>
+    <string name="tv_title">title</string>
+    <string name="btn_persistent">btn_persisent</string>
+    <string name="btn_modal">btn_modal</string>
+    <string name="show">Show</string>
 </resources>
