@@ -1,41 +1,16 @@
 <resources>
-    <string name="app_name">AppMatDesign</string>
-    <string name="Setting">Настройки</string>
-    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="app_name">matdesignless</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
-
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
-
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
-    <string name="appThemeRed">0</string>
-    <string name="appThemeBlue">1</string>
-    <string name="title_activity_sett">SettActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="hint">MyHint</string>
-    <string name="error">My Error</string>
-    <string name="title_activity_snack_bar">SnackBarActivity</string>
-    <string name="tv_description">Описание</string>
-    <string name="tv_title">title</string>
-    <string name="btn_persistent">btn_persisent</string>
-    <string name="btn_modal">btn_modal</string>
-    <string name="show">Show</string>
-    <string name="close">Закрыть</string>
-    <string name="Enter">Войти</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="fructs">Фрукты</string>
+    <string name="vegetables">Овощи</string>
+    <string name="nature">Природа</string>
+    <string name="close">закрыть</string>
+    <string name="enter">Вход</string>
 </resources>

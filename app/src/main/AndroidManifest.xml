@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.matdesign.appmatdesign">
+    package="com.example.matdesignless">
 
     <application
         android:allowBackup="true"
@@ -10,26 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SnackBarActivity"
-            android:label="@string/title_activity_snack_bar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".BottomSheetActivity"
-            android:label="BottomSheetActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
             android:name=".MainActivity"
-            android:label="MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".ToolBarActivity"
-            android:label="ToolBarActivity"
-            android:theme="@style/AppTheme"></activity>
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" />
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
         <activity android:name=".ButtonsActivity"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
