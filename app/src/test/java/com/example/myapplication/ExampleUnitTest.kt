@@ -1,4 +1,4 @@
-package com.example.matdesignless
+package com.example.myapplication
 
 import org.junit.Test
 
