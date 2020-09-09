@@ -6,29 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".ui.vegetables.VegetablesFragment">
 
-    <TextView
-        android:id="@+id/text_veg"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fructsRW"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="294dp"
-        android:layout_height="323dp"
-        android:src="@drawable/vegetables"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
