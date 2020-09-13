@@ -4,12 +4,13 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.matdesignless.R
-import com.example.matdesignless.entities.Fruct
+import com.example.matdesignless.entities.Entities
 
 class NatureViewModel : ViewModel() {
     val natureList = listOf(
-        Fruct("nature1", R.drawable.nature1),
-        Fruct("nature2", R.drawable.nature2)
+        Entities("nature1", R.drawable.nature1),
+        Entities("nature2", R.drawable.nature2),
+        Entities("nature3", R.drawable.nature2)
     )
 
     private val _text = MutableLiveData<String>().apply {

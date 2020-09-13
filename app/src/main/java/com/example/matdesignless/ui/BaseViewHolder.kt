@@ -6,7 +6,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.matdesignless.R
-import com.example.matdesignless.entities.Fruct
+import com.example.matdesignless.entities.Entities
 
 open class FructsViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
     RecyclerView.ViewHolder(inflater.inflate(R.layout.item_card, parent, false)) {
@@ -16,13 +16,13 @@ open class FructsViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
    init { mFructTV = itemView.findViewById(R.id.fructNameTV)
        fructImageView = itemView.findViewById(R.id.fructImageView)}
 
-    fun bind(fruct: Fruct) {
-        mFructTV?.text = fruct.name
-        fructImageView?.setImageResource(fruct.imageId)
+    fun bind(entities: Entities) {
+        mFructTV?.text = entities.name
+        fructImageView?.setImageResource(entities.imageId)
     }
 }
 
-class FructsListAdapter(private val list: List<Fruct>) : RecyclerView.Adapter<FructsViewHolder>() {
+class FructsListAdapter(private val list: List<Entities>) : RecyclerView.Adapter<FructsViewHolder>() {
 
     override fun getItemCount(): Int = list.size
 
@@ -32,8 +32,8 @@ class FructsListAdapter(private val list: List<Fruct>) : RecyclerView.Adapter<Fr
     }
 
     override fun onBindViewHolder(holder: FructsViewHolder, position: Int) {
-        val fruct: Fruct = list[position]
-        holder.bind(fruct)
+        val entities: Entities = list[position]
+        holder.bind(entities)
     }
 
 }

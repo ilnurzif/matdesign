@@ -13,4 +13,9 @@
     <string name="nature">Природа</string>
     <string name="close">закрыть</string>
     <string name="enter">Вход</string>
+    <string name="tab_text_1">nature1</string>
+    <string name="tab_text_2">nature2</string>
+    <string name="bottom1">bottom1</string>
+    <string name="bottom2">bottom2</string>
+    <string name="bottom3">bottom3</string>
 </resources>

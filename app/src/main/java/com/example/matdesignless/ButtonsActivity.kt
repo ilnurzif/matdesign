@@ -14,5 +14,10 @@ class ButtonsActivity : AppCompatActivity() {
             val intent= Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+        closeButton.setOnClickListener {finish()}
+        bottomActivityShowButton.setOnClickListener {
+            val intent= Intent(this, BottomActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
