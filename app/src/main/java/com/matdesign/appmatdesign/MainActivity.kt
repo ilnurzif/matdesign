@@ -11,13 +11,6 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-       val frag2: Fragment = Fragment()
-        val ft: FragmentTransaction? = supportFragmentManager.beginTransaction()
-        ft?.let{
-           frag2?.let{ft.add(R.id.fragment, frag2)}
-           it.commit()
-        }
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
