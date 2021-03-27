@@ -7,7 +7,7 @@ import androidx.preference.PreferenceManager
 
 open class BaseActivity : AppCompatActivity() {
     lateinit var sp:SharedPreferences
-// изм строка
+// изм строка 11111
     override fun onCreate(savedInstanceState: Bundle?) {
         sp = PreferenceManager.getDefaultSharedPreferences(this)
         val themeName=sp.getString("themeName", "0")
