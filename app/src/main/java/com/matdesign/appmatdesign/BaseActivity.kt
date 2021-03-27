@@ -9,6 +9,7 @@ open class BaseActivity : AppCompatActivity() {
     lateinit var sp:SharedPreferences
 // изм строка
     // строка 2
+    // стр 3444
     override fun onCreate(savedInstanceState: Bundle?) {
         sp = PreferenceManager.getDefaultSharedPreferences(this)
         val themeName=sp.getString("themeName", "0")
